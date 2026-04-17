@@ -56,6 +56,14 @@ ul {
 
 .section-title h1{
     font-size: 160px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+.section-title h2{
+    font-size: 40px;
+    font-weight: 700;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #fff;
 }
@@ -116,6 +124,18 @@ ul {
     align-items: center;
     justify-content: center;
 }
+.top-img-shorts {
+    /*プロファイル画像*/
+    background-image: url(img/%E4%B8%8A%E7%B4%9A/pc_bg_mv.png);
+    margin-top: 90px;
+    min-height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* news */
@@ -139,15 +159,12 @@ ul {
 .news-item {
     display: flex;
     gap: 24px;
-    padding: 16px 0;
+    padding: 16px;
     border-bottom: 1px solid var(--border);
     font-size: 14px;
     line-height: 1.7;
 }
 
-.news-item:first-child {
-    border-top: 1px solid var(--border);
-}
 
 .news-date {
     color: #888;
@@ -197,7 +214,9 @@ ul {
 
 .grid-card {
     border: 1px solid var(--border);
-    padding: 32px 24px;
+    width: 350px;
+    height: 266px;
+    padding: 50px 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -206,8 +225,8 @@ ul {
 }
 
 .grid-img {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     object-fit: contain;
 }
 
@@ -226,7 +245,8 @@ ul {
 .footer {
     background: var(--section-font);
     color: #fff;
-    padding: 24px 0;
+
+    padding: 60px 0;
 }
 .footer ul {
     display: flex;
